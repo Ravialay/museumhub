@@ -2,13 +2,14 @@ meta:
   environment: csharp
   toolchain:
     name: dotnet
-    version: "10.0"
+    version: "8.0"
 
 build:
-  image: mcr.microsoft.com/dotnet/sdk:10.0
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  project: backend/MuseumHub.API/MuseumHub.API.csproj
 
 run:
-  image: mcr.microsoft.com/dotnet/aspnet:10.0
+  image: mcr.microsoft.com/dotnet/aspnet:8.0
   buildFileName: MuseumHub.API
   containerPort: 8080
   persistenceMount: /data
