@@ -9,6 +9,6 @@ build:
 
 run:
   image: mcr.microsoft.com/dotnet/aspnet:8.0
-  buildFileName: MuseumHub.API
+  buildFileName: backend/MuseumHub.API/bin/Release/net8.0/MuseumHub.API.dll
   containerPort: 8080
   persistenceMount: /data
