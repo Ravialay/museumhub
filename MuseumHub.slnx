@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/MuseumHub.API/MuseumHub.API.csproj" />
+    <Project Path="backend/MuseumHub.Core/MuseumHub.Core.csproj" />
+    <Project Path="backend/MuseumHub.Infrastructure/MuseumHub.Infrastructure.csproj" />
+    <Project Path="backend/MuseumHub.Services/MuseumHub.Services.csproj" />
+  </Folder>
+</Solution>

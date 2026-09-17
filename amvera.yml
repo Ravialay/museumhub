@@ -6,7 +6,6 @@ meta:
 
 build:
   image: mcr.microsoft.com/dotnet/sdk:8.0
-  project: backend/MuseumHub.API/MuseumHub.API.csproj
 
 run:
   image: mcr.microsoft.com/dotnet/aspnet:8.0
