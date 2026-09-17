@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MuseumHub.API/MuseumHub.API.csproj" />
+  <Project Path="MuseumHub.Core/MuseumHub.Core.csproj" />
+  <Project Path="MuseumHub.Infrastructure/MuseumHub.Infrastructure.csproj" />
+  <Project Path="MuseumHub.Services/MuseumHub.Services.csproj" />
+</Solution>
