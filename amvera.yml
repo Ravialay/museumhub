@@ -10,7 +10,6 @@ build:
 run:
   image: mcr.microsoft.com/dotnet/aspnet:8.0
   buildFileName: bin/publish/MuseumHub.API.dll
-  command: dotnet
-  args: bin/publish/MuseumHub.API.dll
+  command: dotnet bin/publish/MuseumHub.API.dll
   containerPort: 8080
   persistenceMount: /data
